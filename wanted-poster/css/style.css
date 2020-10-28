@@ -14,7 +14,6 @@
     font-weight:normal;
 }
 
-
 /* Root */
 
 html {
@@ -34,91 +33,72 @@ body {
 }
 main {
     background-color:#ddd;
-    background-image:url(images/wrinkled-white-paper-background.jpg);
+    background-image:url(wanted-poster/images/wrinkled-white-paper-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border:1px solid #333;
 }
 
-/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
-
-/* NO changes should be made to any of the code above. */
-
-/* The first heading style rule has been completed for you. Examine it carefully
-   to get an idea of some of the style properties you will need to use; then
-   complete the style code according to the instructions in Canvas. */
-
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
-   may need to be different in order to style the page correctly. */
-
-
 /* Headings  */
 
 h1 {
     text-transform: uppercase;
-    font-size:6rem;
+    text-shadow: .09375rem .09375rem .09375rem #000;
+     text-align: center;
+    font-size: 6rem;
+    font-family: 'Alfa Slab One', Garamond, serif;
     margin: 0;
     letter-spacing: .5rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
+    color: darkred;
 }
 
 h2 {
+    text-shadow: .09375rem .09375rem .09375rem #000;
     text-transform: uppercase;
-    font-size:3rem;
+    text-align: center;
+    color: darkred;
+    font-family: 'Alfa Slab One', Garamond, serif;
+    font-size: 3rem;
+    font-weight: normal;
     margin: 0;
     letter-spacing: .25rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
-    font-weight:  normal;
 }
 
 h3 {
+    text-shadow: .09375rem .09375rem .09375rem #000;
+    text-align: center;
     text-transform: uppercase;
-    font-size:2rem;
+    color: black;
+    font-family: 'Alfa Slab One', Garamond, serif;
+    font-size: 2rem;
+    font-weight: normal;
     margin: 0;
-    letter-spacing: .5rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
-    font-weight:  normal;
 }
 
-h4 {
+h4 { 
+    text-shadow: .09375rem .09375rem .09375rem #000;
+    text-align:center;
     text-transform: uppercase;
+    color:darkred;
+    font-family:'Alfa Slab One', Garamond, serif;
     font-size:1.5rem;
+    font-weight:normal;
     margin: 0;
     letter-spacing: .25rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
-    font-weight:  normal;
     padding-bottom:  1.125rem;
     }
      span { padding:  0 .5rem;
 }
 
-
 h5 {
-    text-transform: uppercase;
     font-size:1rem;
-    margin-top: .25rem;
-    margin: 0;
-    letter-spacing: .5rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
-    font-weight:  normal;
+     margin: .25rem 0;
     padding: .5rem;
-    background-color:  #333;
-    color:  #FFF;
+    background-color:#333;
+    color:#FFF;
+    font-weight:normal;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;  
 }
 
 /* Section & Paragraph */
@@ -146,7 +126,9 @@ img {
     
 }
 
-figure {}
+figure {
+    margin-bottom: 2rem;
+}
 
 figcaption {
     padding-top: .5rem;
