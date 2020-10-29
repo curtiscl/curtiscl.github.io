@@ -33,7 +33,7 @@ body {
 }
 main {
     background-color:#ddd;
-    background-image:url(wanted-poster/images/wrinkled-white-paper-background.jpg);
+    background-image:url(../images/wrinkled-white-paper-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border:1px solid #333;
@@ -65,7 +65,6 @@ h2 {
 }
 
 h3 {
-    text-shadow: .09375rem .09375rem .09375rem #000;
     text-align: center;
     text-transform: uppercase;
     color: black;
