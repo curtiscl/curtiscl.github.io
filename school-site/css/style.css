@@ -80,12 +80,12 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family:josefinslab-regular;
+    font-family:josefinslab;
 src:  url(.../fonts/josefinslab-regular.ttf);
     font-weight:normal;
     font-style:normal;
 }
-@font-face {font-family:montserrat-regular;
+@font-face {font-family:montserrat;
 src:  url(.../fonts/montserrat-regular.ttf);
     font-weight:normal;
     font-style:normal;
@@ -95,12 +95,12 @@ src:  url(.../fonts/montserrat-regular.ttf);
 /* Typography Styles */
 
 html {
-    font-family: montserrat-regular, Arial, sans-serif;
+    font-family: montserrat, Arial, sans-serif;
 }
 
 h1 {
     letter-spacing: 0.125rem;
-    font-family: josefinslab-regular, Roboto, Oswald;
+    font-family: josefinslab, Roboto, Oswald;
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
@@ -108,13 +108,13 @@ h1 {
 
 h2 {
     letter-spacing: 0.125rem;
-    font-family: josefinslab-regular, Roboto, Oswald;
+    font-family: josefinslab, Roboto, Oswald;
     font-size: 1.5rem;
 }
 
 h2 + p {
     letter-spacing: 0.125rem;
-    font-family: josefinslab-regular, Roboto, Oswald;
+    font-family: josefinslab, Roboto, Oswald;
 }
 
 p{
