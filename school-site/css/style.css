@@ -95,37 +95,40 @@ src:  url(.../fonts/montserrat-regular.ttf);
 /* Typography Styles */
 
 html {
-    font-family: montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
 }
 
 h1 {
     letter-spacing: 0.125rem;
-    font-family: josefinslab, Roboto, Oswald;
+    font-family: Josefinslab, Garamond, serif;
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
+    }
+
+h2 + p {
+    letter-spacing: 0.125rem;
+    font-family: Josefinslab, Garamond, serif;
+    font-size: 1.5rem;
 }
 
 h2 {
     letter-spacing: 0.125rem;
-    font-family: josefinslab, Roboto, Oswald;
     font-size: 1.5rem;
-}
-
-h2 + p {
-    letter-spacing: 0.125rem;
-    font-family: josefinslab, Roboto, Oswald;
+    font-family: Josefinslab, Garamond, serif;
 }
 
 p{
     font-size: 0.75rem;
     letter-spacing: 0.03125rem;
     word-spacing: 0.125rem;
-    text-indent: 1.5rem;
-    
+    text-indent: 1.5rem;  
 }
 
 li {
+    font-size: 0.75rem;
+    letter-spacing: 0.03125rem;
+    word-spacing: 0.125rem;
     
     
 }
