@@ -1,0 +1,161 @@
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+/* General setup */
+box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1 auto;
+    width:5%;
+    min-width:25rem;
+}
+
+/* Layout */
+main {
+    overflow:auto;
+    min-width:45rem;
+}
+
+body {
+    
+}
+
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:auto;
+}
+
+/* Imported Typfaces */
+
+@font-face {
+    font-family:montserrat;
+src:  url(.../fonts/montserrat-regular.ttf);
+    font-weight:normal;
+    font-style:normal;
+    }
+@font-face { 
+    font-family:ultra;
+src:  url(.../fonts/ultra-regular.ttf);
+    font-weight:normal;
+    font-style:normal;
+}
+
+/* Typography Styles */
+html { 
+    font-family: "Montserrat", Arial, sans-serif;
+    }
+
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    width:auto;
+    }
+
+h1{
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.125rem;
+    text-align: center;
+    transform: rotate(-2deg);
+}
+
+.highlight {
+    text-transform: uppercase;
+    font-family: "ultraregular", serif;
+    background-color: maroon;
+    padding: 1rem;
+    box-shadow:0.625rem 0.625rem 0.625rem grey;
+    border-radius: 1.875rem 0.625rem;
+    border-color: black;
+    color: beige;
+    }
+
+.article-image{
+    float:left;
+    margin:0;
+    padding:0.5rem;
+}
+
+.main-section {
+    display:flex;
+}
+
+nav {
+    word-spacing:4rem;
+    font-size:1.25rem;
+    border-top: solid #000033 thin;
+    border-bottom: solid #000033 thin;
+    padding:1.5625rem 0 1.5625rem 0;
+    color: #000033;
+    }
+
+nav a:nth-child(2) {
+    text-decoration-line: line-through;
+    transform: rotate(15deg);
+}
+
+a:link, a:active {
+    text-decoration: none;
+    transform: rotate(15deg);
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+    width:30%;
+    }
+
+button {
+    background-color:#002b80;
+    border:none;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    font-size:1rem;
+    padding:0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-family:  "ultra", Garamond, serif;
+}
+
+h2 {
+    font-family: "Montserrat", Arial, sans-serif; 
+    font:  
+    }
+    
+h3 {
+    font-family: "Montserrat", Arial, sans-serif;  
+    }
+
+p {
+    font-family: "Montserrat", Arial, sans-serif; 
+    }
+.subsection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    }
+
+figcaption {
+    background-color: #fff7e6;
+    padding:.5rem;
+    font-size:1rem;
+    color:black;
+}
+    
+    /* Footer Styles */
+    footer {
+    font-family: "Montserrat", Arial, sans-serif;  
+        color:#000033;
+}
+
+a link {
+    text-decoration:none;
+}
